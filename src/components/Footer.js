@@ -1,5 +1,5 @@
-function Header(props){
-    return <Header>Header</Header>
+function Footer(props){
+    return <footer>Footer</footer>
 }
 
-export default Header
+export default Footer

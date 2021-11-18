@@ -1,10 +1,15 @@
-
+import Main from "./components/Main";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import { BodyContainer } from "./styled-components/containers";
 
 function App() {
   return (
-    <div className="App">
-Hello World
-    </div>
+    <BodyContainer>
+      <Header />
+      <Main />
+      <Footer />
+    </BodyContainer>
   );
 }
 
